@@ -1,19 +1,26 @@
-// {
-//   "books": [
-//     {
-//       'title':"Clean Code: A Handbook of Agile Software Craftsmanship",
-//       "author": "Robert C. Martin",
-//       "publisher": "Prentice Hall",
-//       "publication_date": "August 11, 2008",
-//       "pages": 464,
-//       "category": "Programming"
-//     },
-//     {
-//       "title":"Design Patterns: Elements of Reusable Object-Oriented Software",
-//       "author":"Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
-//       "publisher":"Addison-Wesley Professional",
-//       "publication_date":"October 10, 1994",
-//       "pages": 395
-//       "category": "Programming"
-//     },
-//     {"title": "Introduction to the Theory of Computation","author": "Michael Sipser","publisher": "Cengage Learning","publication_date": "January 1, 1997","pages": 624,"category": "Programming"}]}
+{
+  "comment": "This json contains errors and also should be formated properly",
+  "error": [
+    "title should be enclosed in double quotes",
+    "on line 21 a comma is missing"
+  ],
+  "books": [
+    {
+      'title':"Clean Code: A Handbook of Agile Software Craftsmanship",
+      "author":"Robert C. Martin",
+
+  "publisher": "Prentice Hall",
+      "publication_date": "August 11, 2008",
+      "pages": 464,
+      "category":"Programming"
+
+    },
+    {
+      "title":"Design Patterns: Elements of Reusable Object-Oriented Software",
+      "author":"Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+      "publisher":"Addison-Wesley Professional",
+      "publication_date":"October 10, 1994",
+      "pages": 395
+      "category": "Programming"
+    },
+    {"title": "Introduction to the Theory of Computation","author": "Michael Sipser","publisher": "Cengage Learning","publication_date": "January 1, 1997","pages": 624,"category": "Programming"}]}
