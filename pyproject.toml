@@ -1,0 +1,9 @@
+[tool.black]
+profile = "black"
+line-length = 135
+multi_line_output = 3
+src_paths = ["app/src"]
+skip-string-normalization = 1
+
+[tool.autoflake]
+check = true

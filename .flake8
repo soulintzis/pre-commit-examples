@@ -1,0 +1,73 @@
+[flake8]
+max-complexity = 12
+inline-quotes = double
+max-line-length = 135
+extend-ignore = E203
+docstring_style=sphinx
+
+# flake8-docstrings config
+docstring-convention = google
+
+select =
+  ; mccabe
+  C9,
+  ; pycodestyle
+  E,W,
+  ; pyflakes
+  F,
+  ; flake8-bugbear
+  B,B9,
+  ; flake8-comprehensions
+  C4,
+  ; flake8-docstrings
+  D,
+  ; flake8-requirements
+  I,
+  ; pep8-naming
+  N,
+
+ignore =
+  ; Missing docstring in public module
+  D100,
+  ; Missing docstring in magic method
+  D105,
+  ; Missing docstring in __init__
+  D107,
+  ; Missing docstring in public nested class
+  D106,
+  # (allow first line of docstring to wrap)
+  D415,
+  ; Missing docstring
+  D101, D102, D103, D104, D205
+  ; Package not listed as a requirement
+  I900
+  ; ignore not used imports
+  F401
+  ; line break before binary operator
+  W503
+
+per-file-ignores =
+  ; all tests
+  test_*.py,tests.py,tests_*.py,*/tests/*,conftest.py:
+  ; variable in class scope should not be mixedCase
+  N815,
+  ; Found too many leading '#' for block comment
+  E266
+  ; Data class should either be immutable or use __slots__ to save memory.
+  B903
+
+exclude =
+  ./.cache,
+  ./.git,
+  ./.idea,
+  ./.mypy_cache,
+  ./.pytest_cache,
+  ./.venv,
+  ./venv,
+  ./env,
+  ./cached_venv,
+  ./docs,
+  ./deploy,
+  ./var,
+  ./.vscode,
+  *migrations*,
