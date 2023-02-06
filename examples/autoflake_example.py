@@ -1,3 +1,7 @@
+"""This example demonstrates how autoflake will remove unnecessary imports.
+Also the star import will be replaced with the necessary modules that
+are used in the rest of the code.
+"""
 # from mongoengine import *
 # import json
 

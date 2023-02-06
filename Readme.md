@@ -4,11 +4,11 @@
 Pre-commit actions help to enforce consistent coding standards and catch potential issues before they are committed to the codebase. This can improve code quality, reduce bugs and security vulnerabilities, and streamline the development process by catching problems early in the development cycle. Additionally, pre-commit actions can automate repetitive tasks, such as running linting tools, formatting code, or checking for compliance with company policies, freeing up developers to focus on more important tasks.
 
 ## How Pre-Commit Actions Work
-Pre-commit actions run before code is committed to a repository. 
+Pre-commit actions run before code is committed to a repository.
 Once the code is written, the pre-commit actions run to check for any errors or bugs. If any are found, the code can be corrected before it is committed. This helps ensure that the code is up to standards and meets any specific requirements that the company may have.
 
 ## PEP 8 (Python Enhancement Proposal)
-PEP 8 is a style guide that describes the coding standards for Python. It's the most popular guide within the Python community. 
+PEP 8 is a style guide that describes the coding standards for Python. It's the most popular guide within the Python community.
 The most important rules state the following:
 
 
@@ -33,4 +33,3 @@ The most important rules state the following:
 - always surround binary operators with a single space on either side
 - if operators with different priorities are used, consider adding whitespace around the operators with the lowest priority
 - don't use spaces around the = sign when used to indicate a keyword argument
-
